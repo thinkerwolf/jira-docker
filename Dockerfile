@@ -1,4 +1,4 @@
-FROM cptactionhank/atlassian-jira-software:7.5.3
+FROM idalko/atlassian-jira-software:8.20.30
 
 # 注入破解包
 COPY ./jira/crack/atlassian-universal-plugin-manager-plugin-2.22.4.jar /opt/atlassian/jira/atlassian-jira/WEB-INF/atlassian-bundled-plugins/atlassian-universal-plugin-manager-plugin-2.22.4.jar
