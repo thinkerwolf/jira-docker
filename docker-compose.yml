@@ -26,10 +26,8 @@ services:
 
 
   jira:
+    image: mysql:5.7
     container_name: jira_srv
-    build:
-      context: .
-      dockerfile: Dockerfile
     environment:
       - TZ=Asia/Shanghai
 #      - JVM_MINIMUM_MEMORY=1g
